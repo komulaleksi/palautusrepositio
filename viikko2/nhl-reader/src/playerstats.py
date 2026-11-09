@@ -1,5 +1,3 @@
-from playerreader import PlayerReader
-
 class PlayerStats:
     def __init__(self, reader):
         self.reader = reader

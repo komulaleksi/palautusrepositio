@@ -1,5 +1,3 @@
-import requests
-from player import Player
 from playerreader import PlayerReader
 from playerstats import PlayerStats
 
