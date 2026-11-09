@@ -2,6 +2,7 @@
 
 ignore-paths=src/tests
 ignore=single_file_to_ignore.py
+init-hook=import sys; sys.path.insert(0, "src")
 
 [MESSAGE CONTROL]
 
@@ -30,4 +31,3 @@ max-nested-blocks=2
 
 max-statements=10
 max-bool-expr=4
-
